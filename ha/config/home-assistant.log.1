@@ -1,0 +1,76 @@
+2023-05-01 18:44:05.079 ERROR (MainThread) [homeassistant.config] Invalid config for [http]: not a valid value @ data['http']['trusted_proxies'][0]. Got '172.18.0.1/8'. (See /config/configuration.yaml, line 9). Please check the docs at https://www.home-assistant.io/integrations/http
+2023-05-01 18:44:05.081 ERROR (MainThread) [homeassistant.setup] Setup failed for http: Invalid config.
+2023-05-01 18:44:05.082 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of api. Setup failed for dependencies: http
+2023-05-01 18:44:05.083 ERROR (MainThread) [homeassistant.setup] Setup failed for api: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.083 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of auth. Setup failed for dependencies: http
+2023-05-01 18:44:05.084 ERROR (MainThread) [homeassistant.setup] Setup failed for auth: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.084 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of config. Setup failed for dependencies: http
+2023-05-01 18:44:05.085 ERROR (MainThread) [homeassistant.setup] Setup failed for config: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.085 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of diagnostics. Setup failed for dependencies: http
+2023-05-01 18:44:05.086 ERROR (MainThread) [homeassistant.setup] Setup failed for diagnostics: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.086 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of file_upload. Setup failed for dependencies: http
+2023-05-01 18:44:05.086 ERROR (MainThread) [homeassistant.setup] Setup failed for file_upload: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.087 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of repairs. Setup failed for dependencies: http
+2023-05-01 18:44:05.087 ERROR (MainThread) [homeassistant.setup] Setup failed for repairs: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.088 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of websocket_api. Setup failed for dependencies: http
+2023-05-01 18:44:05.088 ERROR (MainThread) [homeassistant.setup] Setup failed for websocket_api: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.089 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of image_upload. Setup failed for dependencies: http
+2023-05-01 18:44:05.089 ERROR (MainThread) [homeassistant.setup] Setup failed for image_upload: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.090 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of search. Setup failed for dependencies: websocket_api
+2023-05-01 18:44:05.090 ERROR (MainThread) [homeassistant.setup] Setup failed for search: (DependencyError(...), 'Could not setup dependencies: websocket_api')
+2023-05-01 18:44:05.091 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of analytics. Setup failed for dependencies: api, websocket_api
+2023-05-01 18:44:05.091 ERROR (MainThread) [homeassistant.setup] Setup failed for analytics: (DependencyError(...), 'Could not setup dependencies: api, websocket_api')
+2023-05-01 18:44:05.091 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of person. Setup failed for dependencies: image_upload
+2023-05-01 18:44:05.092 ERROR (MainThread) [homeassistant.setup] Setup failed for person: (DependencyError(...), 'Could not setup dependencies: image_upload')
+2023-05-01 18:44:05.093 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of onboarding. Setup failed for dependencies: analytics, auth, http, person
+2023-05-01 18:44:05.093 ERROR (MainThread) [homeassistant.setup] Setup failed for onboarding: (DependencyError(...), 'Could not setup dependencies: analytics, auth, http, person')
+2023-05-01 18:44:05.094 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of frontend. Setup failed for dependencies: api, auth, config, diagnostics, file_upload, http, onboarding, repairs, search, websocket_api
+2023-05-01 18:44:05.094 ERROR (MainThread) [homeassistant.setup] Setup failed for frontend: (DependencyError(...), 'Could not setup dependencies: api, auth, config, diagnostics, file_upload, http, onboarding, repairs, search, websocket_api')
+2023-05-01 18:44:05.434 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2023-05-01 18:44:05.485 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=5 from 2023-05-01 18:43:01.042795)
+2023-05-01 18:44:05.518 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of usb. Setup failed for dependencies: websocket_api
+2023-05-01 18:44:05.519 ERROR (MainThread) [homeassistant.setup] Setup failed for usb: (DependencyError(...), 'Could not setup dependencies: websocket_api')
+2023-05-01 18:44:05.520 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of webhook. Setup failed for dependencies: http
+2023-05-01 18:44:05.520 ERROR (MainThread) [homeassistant.setup] Setup failed for webhook: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.521 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of network. Setup failed for dependencies: websocket_api
+2023-05-01 18:44:05.521 ERROR (MainThread) [homeassistant.setup] Setup failed for network: (DependencyError(...), 'Could not setup dependencies: websocket_api')
+2023-05-01 18:44:05.556 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of bluetooth. Setup failed for dependencies: usb
+2023-05-01 18:44:05.556 ERROR (MainThread) [homeassistant.setup] Setup failed for bluetooth: (DependencyError(...), 'Could not setup dependencies: usb')
+2023-05-01 18:44:05.557 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of cloud. Setup failed for dependencies: http, webhook
+2023-05-01 18:44:05.557 ERROR (MainThread) [homeassistant.setup] Setup failed for cloud: (DependencyError(...), 'Could not setup dependencies: http, webhook')
+2023-05-01 18:44:05.558 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of zeroconf. Setup failed for dependencies: network, api
+2023-05-01 18:44:05.558 ERROR (MainThread) [homeassistant.setup] Setup failed for zeroconf: (DependencyError(...), 'Could not setup dependencies: network, api')
+2023-05-01 18:44:05.559 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of ssdp. Setup failed for dependencies: network
+2023-05-01 18:44:05.559 ERROR (MainThread) [homeassistant.setup] Setup failed for ssdp: (DependencyError(...), 'Could not setup dependencies: network')
+2023-05-01 18:44:05.657 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of my. Setup failed for dependencies: frontend
+2023-05-01 18:44:05.658 ERROR (MainThread) [homeassistant.setup] Setup failed for my: (DependencyError(...), 'Could not setup dependencies: frontend')
+2023-05-01 18:44:05.664 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of stream. Setup failed for dependencies: http
+2023-05-01 18:44:05.664 ERROR (MainThread) [homeassistant.setup] Setup failed for stream: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.666 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of map. Setup failed for dependencies: frontend
+2023-05-01 18:44:05.667 ERROR (MainThread) [homeassistant.setup] Setup failed for map: (DependencyError(...), 'Could not setup dependencies: frontend')
+2023-05-01 18:44:05.669 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of conversation. Setup failed for dependencies: http
+2023-05-01 18:44:05.669 ERROR (MainThread) [homeassistant.setup] Setup failed for conversation: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.670 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of media_source. Setup failed for dependencies: http
+2023-05-01 18:44:05.671 ERROR (MainThread) [homeassistant.setup] Setup failed for media_source: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.671 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of system_health. Setup failed for dependencies: http
+2023-05-01 18:44:05.673 ERROR (MainThread) [homeassistant.setup] Setup failed for system_health: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.674 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of tts. Setup failed for dependencies: http
+2023-05-01 18:44:05.675 ERROR (MainThread) [homeassistant.setup] Setup failed for tts: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.675 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of logbook. Setup failed for dependencies: frontend, http
+2023-05-01 18:44:05.676 ERROR (MainThread) [homeassistant.setup] Setup failed for logbook: (DependencyError(...), 'Could not setup dependencies: frontend, http')
+2023-05-01 18:44:05.677 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of history. Setup failed for dependencies: http
+2023-05-01 18:44:05.677 ERROR (MainThread) [homeassistant.setup] Setup failed for history: (DependencyError(...), 'Could not setup dependencies: http')
+2023-05-01 18:44:05.677 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of application_credentials. Setup failed for dependencies: auth, websocket_api
+2023-05-01 18:44:05.677 ERROR (MainThread) [homeassistant.setup] Setup failed for application_credentials: (DependencyError(...), 'Could not setup dependencies: auth, websocket_api')
+2023-05-01 18:44:05.684 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of energy. Setup failed for dependencies: websocket_api, history
+2023-05-01 18:44:05.685 ERROR (MainThread) [homeassistant.setup] Setup failed for energy: (DependencyError(...), 'Could not setup dependencies: websocket_api, history')
+2023-05-01 18:44:05.690 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of mobile_app. Setup failed for dependencies: http, webhook, person, websocket_api
+2023-05-01 18:44:05.690 ERROR (MainThread) [homeassistant.setup] Setup failed for mobile_app: (DependencyError(...), 'Could not setup dependencies: http, webhook, person, websocket_api')
+2023-05-01 18:44:05.739 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of default_config. Setup failed for dependencies: application_credentials, bluetooth, cloud, conversation, energy, frontend, history, logbook, map, media_source, mobile_app, my, network, person, ssdp, stream, system_health, usb, webhook, zeroconf
+2023-05-01 18:44:05.740 ERROR (MainThread) [homeassistant.setup] Setup failed for default_config: (DependencyError(...), 'Could not setup dependencies: application_credentials, bluetooth, cloud, conversation, energy, frontend, history, logbook, map, media_source, mobile_app, my, network, person, ssdp, stream, system_health, usb, webhook, zeroconf')
+2023-05-01 18:44:05.741 WARNING (MainThread) [homeassistant.bootstrap] Detected that frontend did not load. Activating safe mode
+2023-05-01 18:44:24.347 ERROR (MainThread) [homeassistant.components.http.forwarded] Received X-Forwarded-For header from an untrusted proxy 172.22.0.1
+2023-05-01 18:44:24.552 ERROR (MainThread) [homeassistant.components.http.forwarded] Received X-Forwarded-For header from an untrusted proxy 172.22.0.1
+2023-05-01 18:44:26.379 ERROR (MainThread) [homeassistant.components.http.forwarded] Received X-Forwarded-For header from an untrusted proxy 172.22.0.1
+2023-05-01 18:44:26.505 ERROR (MainThread) [homeassistant.components.http.forwarded] Received X-Forwarded-For header from an untrusted proxy 172.22.0.1
+2023-05-01 18:47:49.634 WARNING (Recorder) [homeassistant.components.recorder.core] Recorder startup was externally canceled before it could complete: 
