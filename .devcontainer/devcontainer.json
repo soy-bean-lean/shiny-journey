@@ -16,5 +16,16 @@
         "ms-python.python"
       ]
     }
+  },
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "Github-sph3r3-shaka/ha": {
+          "permissions": {
+            "issues": "write-all"
+          }
+        }
+      }
+    }
   }
 }
