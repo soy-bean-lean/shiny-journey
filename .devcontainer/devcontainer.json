@@ -17,15 +17,7 @@
       ]
     }
   },
-  "customizations": {
-    "codespaces": {
-      "repositories": {
-        "Github-sph3r3-shaka/ha": {
-          "permissions": {
-            "issues": "write-all"
-          }
-        }
-      }
-    }
-  }
+"features": {
+	"ghcr.io/devcontainers-contrib/features/tailscale:1": {}
+}
 }
