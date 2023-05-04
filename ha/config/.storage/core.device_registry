@@ -7,18 +7,18 @@
       {
         "area_id": null,
         "config_entries": [
-          "a1f360a6fe20e4193e53757fe849ac52"
+          "0fb98572d4e8f403adf66f34056bcc87"
         ],
         "configuration_url": null,
         "connections": [],
         "disabled_by": null,
         "entry_type": "service",
         "hw_version": null,
-        "id": "412090af04ec47d17daea2f5e75165f3",
+        "id": "bfac9ec68c0d2b541c4d5e1a90097304",
         "identifiers": [
           [
             "sun",
-            "a1f360a6fe20e4193e53757fe849ac52"
+            "0fb98572d4e8f403adf66f34056bcc87"
           ]
         ],
         "manufacturer": null,

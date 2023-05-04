@@ -6,7 +6,7 @@ services:
     ports:
       - "8123:8123"
     volumes:
-      - /workspaces/codespaces-jupyter/ha/config:/config
+      - ./config:/config
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
     privileged: true
